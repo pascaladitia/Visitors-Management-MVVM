@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Manajemen Pengunjung</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Beranda</string>
+    <string name="visitors">Pengunjung</string>
+    <string name="about">Tentang</string>
+    <string name="login_here">Login Disini..</string>
+    <string name="login">Login</string>
+    <string name="register_here">Daftar Disini..</string>
+    <string name="cange_language">Ganti Bahasa</string>
+    <string name="register">Daftar</string>
+    <string name="cancel">Batal</string>
+    <string name="logout">Keluar</string>
+    <string name="list_of_visitors">Daftar pengunjung</string>
+    <string name="deskripsi">Aplikasi manajemen pengunjung ini merupakan aplikasi yang berfungsi untuk mengatur pengunjung pada suatu tempat, aplikasi ini dibuat untuk memudahkan kita dalam melihat daftar pengunjung.</string>
+    <string name="created_by_pascal_aditia_muclis">Dibuat Oleh Pascal Aditia Muclis</string>
+    <string name="welcome_n_visitors">Selamat Datang \n Pengunjung</string>
+    <string name="name">Nama</string>
+    <string name="address">Alamat</string>
+    <string name="profession">Pekerjaan</string>
+    <string name="input_here">Masukan Disini..</string>
+    <string name="save">Simpan</string>
+    <string name="back">Kembali</string>
+    <string name="detail_visitors">Detail Pengunjung</string>
+    <string name="yes">Ya</string>
+    <string name="yakin">Apakah kamu yakin?</string>
+    <string name="titleDelete">Hapus Data</string>
+    <string name="titleLogout">Keluar</string>
+</resources>

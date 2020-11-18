@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_home"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.pascal.myapplication.view.home.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_loginActivity"
+            app:destination="@id/loginActivity"
+            app:popEnterAnim="@anim/slide_out_left"
+            app:popExitAnim="@anim/slide_in_right"
+            app:enterAnim="@anim/slide_out_right"
+            app:exitAnim="@anim/slide_in_left"/>
+    </fragment>
+    <fragment
+        android:id="@+id/visitorsFragment"
+        android:name="com.pascal.myapplication.view.home.fragment.VisitorsFragment"
+        android:label="fragment_visitors"
+        tools:layout="@layout/fragment_visitors" >
+        <action
+            android:id="@+id/action_visitorsFragment2_to_detailActivity"
+            app:destination="@id/detailActivity"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"/>
+        <action
+            android:id="@+id/action_visitorsFragment_to_inputActivity3"
+            app:destination="@id/inputActivity3"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"/>
+    </fragment>
+    <activity
+        android:id="@+id/detailActivity"
+        android:name="com.pascal.myapplication.view.home.DetailActivity"
+        android:label="activity_detail"
+        tools:layout="@layout/activity_detail" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.pascal.myapplication.view.home.fragment.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <activity
+        android:id="@+id/inputActivity3"
+        android:name="com.pascal.myapplication.view.home.InputActivity"
+        android:label="activity_input"
+        tools:layout="@layout/activity_input" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.pascal.myapplication.view.loginregist.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+</navigation>
